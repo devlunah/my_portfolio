@@ -1,0 +1,114 @@
+# ======================================
+# 🧠 PYTHON / DJANGO
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos gerados pelo Django (migrações e caches)
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.mo
+*.swp
+*.bak
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ======================================
+# ⚙️ DJANGO PROJECT FILES
+# ======================================
+# Banco SQLite local (não usado, mas pode existir)
+db.sqlite3
+
+# Arquivos gerados pelo collectstatic
+/staticfiles/
+media/
+media_root/
+tmp/
+temp/
+
+# ======================================
+# 🧩 AMBIENTES VIRTUAIS
+# ======================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+Scripts/
+Lib/
+Include/
+
+# ======================================
+# 🔐 CONFIGURAÇÕES E CREDENCIAIS
+# ======================================
+# Arquivos com senhas e variáveis de ambiente
+.env
+*.env
+*.ini
+*.cfg
+*.local
+secrets.json
+
+# Dumps de banco de dados (PostgreSQL)
+*.sql
+*.psql
+*.dump
+*.backup
+
+# ======================================
+# ⚙️ COMPILAÇÃO E PACOTES
+# ======================================
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# ======================================
+# 💻 IDEs E EDITORES
+# ======================================
+# VSCode
+.vscode/
+# PyCharm / JetBrains
+.idea/
+# Outros
+*.sublime-project
+*.sublime-workspace
+
+# ======================================
+# 🪟 WINDOWS E macOS
+# ======================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ======================================
+# 🧩 Backups e pastas temporárias locais
+# ======================================
+testes/
+backup/
+logs/
