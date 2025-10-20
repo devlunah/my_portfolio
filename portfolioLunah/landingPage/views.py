@@ -9,9 +9,12 @@ class IndexView(TemplateView):
 
 """
 def index(request):
-    return HttpResponse("Hello, world. You're at the Landing Page.")
+    return render(request, "index.html")  
+    # return HttpResponse("Hello, world. You're at the Landing Page.")
 
 """
+
+
 
 
 

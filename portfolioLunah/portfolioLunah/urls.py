@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from landingPage import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='home'),          # agora "/" abre a landing
+    path('', include('landingPage.urls')),          # agora "/" abre a landing
     #path('landingPage/', views.index, name='lp') # opcional: mantém a antiga visualização http://127.0.0.1:8000/landingPage/
 ]
