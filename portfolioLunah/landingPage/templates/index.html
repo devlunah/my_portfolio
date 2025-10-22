@@ -4,42 +4,70 @@
 
 {% block content %}
 
-<!-- Barra de Menu -->
-<nav class="navbar navbar-expand-lg ">
-    <div class="container mt-4">
-        <a class="navbar-brand serif" href="/">Lunah Carvalho | Portfólio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre mim</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Experiências</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Certificações</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projetos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contatos</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class= "container">
-    <p class="h1">Lunah Carvalho</p>
+<div class="d-flex flex-column min-vh-100 position-relative">
+    <!-- Barra de Menu -->
+  <header class="p-3 bg-light">Lunah Carvalho | Portfólio</header>
+    <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiências</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Certificações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+  <main class="flex-grow-1 p-3">Main Content</main>
+  <footer class="p-3 bg-dark text-white">Footer</footer>
 </div>
+
+<!--  <nav class="navbar navbar-expand-lg ">-->
+<!--        <div class="container mt-4">-->
+<!--            <a class="navbar-brand serif" href="/">Lunah Carvalho | Portfólio</a>-->
+<!--            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"-->
+<!--                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse" id="navbarNav">-->
+<!--                <ul class="navbar-nav ms-auto">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Sobre mim</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Habilidades</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Experiências</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Certificações</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Projetos</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#">Contatos</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </nav>-->
+
+<!--<div class= "container">-->
+<!--    <p class="h1">Lunah Carvalho</p>-->
+<!--</div>-->
 
 {% include "sobre_mim.html" %}
 {% include "habilidades.html" %}
