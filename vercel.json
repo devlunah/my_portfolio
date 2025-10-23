@@ -1,4 +1,5 @@
 {
+  "buildCommand": "pip install -r requirements.txt && python portfolioLunah/manage.py collectstatic --noinput",
   "builds": [
     {
       "src": "portfolioLunah/portfolioLunah/wsgi.py",
